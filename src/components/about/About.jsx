@@ -37,7 +37,7 @@ const About = () => {
             </div>
 
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium accusantium eveniet assumenda, iusto odio repellendus voluptas aliquam molestiae rem odit hic nobis temporibus corporis non et rerum modi. Pariatur, eos?
+            I am a passionate and driven Back-End Web Developer, seeking to make my mark in the world of technology with a keen interest in all things web development.
             </p>
             <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
