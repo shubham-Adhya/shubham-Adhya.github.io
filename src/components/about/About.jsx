@@ -11,9 +11,10 @@ const About = () => {
       <h5>Get To Know</h5>
       <h2>About me</h2>
       <div className="container about__container">
+
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="About_image" />
+            <img src={ME} alt="About_image" className='about_img'/>
           </div>
         </div>
 
@@ -21,26 +22,36 @@ const About = () => {
             <div className='about__cards'>
               <article className='about__card'>
                   <FaAward className='about_icon'/>
-                  <h5>Experience</h5>
-                  <small>3+ Years Working</small>
-              </article>
-              <article className='about__card'>
-                  <FiUsers className='about_icon'/>
-                  <h5>Clients</h5>
-                  <small>200+ Worldwide</small>
+                  <h5>1200+</h5>
+                  <small>Hours of Coding</small>
               </article>
               <article className='about__card'>
                   <VscFolderLibrary className='about_icon'/>
-                  <h5>Projects</h5>
-                  <small>80+ Completed</small>
+                  <h5>6+</h5>
+                  <small>Projects Done</small>
+              </article>
+              <article className='about__card'>
+                  <FiUsers  className='about_icon'/>
+                  <h5>100+</h5>
+                  <small>Hours of Softskills Sessions</small>
               </article>
             </div>
-
+            <h2 className='about__title'><span>I'm </span>Shubham Adhya </h2>
             <p>
-            I am a passionate and driven Back-End Web Developer, seeking to make my mark in the world of technology with a keen interest in all things web development.
+            I am a passionate and driven Back-End Web Developer with skills in MERN stack, seeking to make my mark in the world of technology with a keen interest in all things web development.
             </p>
-            <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+            <div className='about__extra'>
+              <div>
+                <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+              </div>
+              <div>
+                <h5>Age: &nbsp;<span> 23 Years</span> </h5>
+                <h5>Email: &nbsp;<span> shubhamadhya@gmail.com</span> </h5>
+                <h5>From: &nbsp;<span> Kolkata, India</span> </h5>
+              </div>
+            </div>
         </div>
+
       </div>
     </section>
   )
