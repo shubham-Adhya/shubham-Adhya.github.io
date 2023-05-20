@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.72903762.css",
-    "main.js": "/static/js/main.9efe3f8e.js",
+    "main.js": "/static/js/main.056044fb.js",
     "static/media/Tripwise SS.png": "/static/media/Tripwise SS.eb2d8aa9fcb328739376.png",
     "static/media/Shubham-Adhya-Resume.pdf": "/static/media/Shubham-Adhya-Resume.f7537d1e87e13dfd5054.pdf",
     "static/media/me-about.jpg": "/static/media/me-about.7743030ee13064b38296.jpg",
@@ -9,10 +9,10 @@
     "static/media/me.png": "/static/media/me.b3dc8c9addcc976b7e76.png",
     "index.html": "/index.html",
     "main.72903762.css.map": "/static/css/main.72903762.css.map",
-    "main.9efe3f8e.js.map": "/static/js/main.9efe3f8e.js.map"
+    "main.056044fb.js.map": "/static/js/main.056044fb.js.map"
   },
   "entrypoints": [
     "static/css/main.72903762.css",
-    "static/js/main.9efe3f8e.js"
+    "static/js/main.056044fb.js"
   ]
 }
