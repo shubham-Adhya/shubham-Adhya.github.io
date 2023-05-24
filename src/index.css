@@ -24,6 +24,7 @@
     --container-width-md: 86%;
     --container-width-sm: 90%;
     --toastify-color-progress-dark: #4db5ff;
+    --github-bg: #050F2C
 }
 
 html{
@@ -73,6 +74,7 @@ section>h2{
 
 .text-light{
     color: var(--color-light);
+    text-align: left;
 }
 
 a {

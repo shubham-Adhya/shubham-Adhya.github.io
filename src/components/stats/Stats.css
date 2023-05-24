@@ -1,0 +1,106 @@
+#stats{
+    padding-top: 3rem;
+}
+.stats__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.stat{
+    background: var(--color-bg-variant);
+    border: 0 0 2rem 2rem;
+    border: 1px solid var(--color-primary);
+    height: fit-content;
+    transition: var(--transition);
+    
+    box-sizing: content-box;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 1rem; */
+    justify-content: space-between;
+}
+
+.stat img{
+
+    display: block;
+    /* margin-top: 0.5rem; */
+    margin-bottom: 0.5rem;
+    /* height: 50%; */
+    aspect-ratio: 2.5/1;
+    /* border: 2px solid greenyellow; */
+}
+.stat:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    transition: var(--transition);
+    cursor: default;
+}
+
+.stat__head{
+    background-color: var(--color-primary);
+    padding: 1rem;
+    border-radius: 0 0 2rem 2rem;
+    box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.stat__head h3{
+    color: var(--color-bg);
+    font-size: 1rem;
+    text-align: center;
+}
+
+.git_hub{
+    /* outline: 2px solid greenyellow; */
+    /* all: unset; */
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background: var(--github-bg);
+    height: fit-content;
+}
+.git_hub:hover{
+    background: var(--github-bg);
+    border-color: var(--color-primary-variant);
+    transition: var(--transition);
+    cursor: default;
+}
+
+.react-activity-calendar{
+    margin: 1rem auto;
+}
+.react-activity-calendar footer{
+    /* outline: 2px solid greenyellow; */
+    padding: 1rem 1rem;
+    background: transparent;
+}
+
+/* ============ MEDIA QUERIES (MEDIUM)======= */
+@media screen and (max-width: 1024px){
+    .stats__container{
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+    .stat{
+        height: auto;
+    }
+    .git_hub{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+
+/* ============ MEDIA QUERIES (Small)======= */
+@media screen and (max-width: 600px){
+    .stats__container{
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    .stat{
+        height: auto;
+    }
+    .git_hub{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+}

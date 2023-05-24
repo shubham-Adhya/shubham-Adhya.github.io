@@ -51,7 +51,10 @@ footer a{
     margin-bottom: 4rem;
     color: var(--color-bg);
 }
-
+h4{
+    text-align: center;
+    font-size: medium;
+}
 /* ============ MEDIA QUERIES (MEDIUM)======= */
 @media screen and (max-width: 1024px){
     

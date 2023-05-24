@@ -1,7 +1,6 @@
 nav{
     background: rgba(0, 0, 0, 0.3);
     width: max-content;
-    display: block;
     padding: 0.7rem 1.7rem;
     z-index: 2;
     position: fixed;
@@ -12,6 +11,7 @@ nav{
     gap: 0.8rem;
     border-radius: 3rem;
     backdrop-filter: blur(15px);
+    z-index: 100;
 }
 
 nav a{
@@ -30,4 +30,19 @@ nav a:hover{
 nav a.active{
     background: var(--color-primary);
     color: var(--color-bg);
+}
+
+/* ============ MEDIA QUERIES (MEDIUM)======= */
+@media screen and (max-width: 1024px){
+    
+}
+
+/* ============ MEDIA QUERIES (Small)======= */
+@media screen and (max-width: 600px){
+    nav{
+        width: 95vw;
+        gap: 0rem;
+        align-items: center;
+        justify-content: center;
+    }
 }

@@ -7,7 +7,7 @@ import {VscFolderLibrary} from 'react-icons/vsc'
 
 const About = () => {
   return (
-    <section id='about'>
+    <section id='about' className='about section'>
       <h5>Get To Know</h5>
       <h2>About me</h2>
       <div className="container about__container">
@@ -36,8 +36,8 @@ const About = () => {
                   <small>Hours of Softskills Sessions</small>
               </article>
             </div>
-            <h2 className='about__title'><span>I'm </span>Shubham Adhya </h2>
-            <p>
+            <h2 className='about__title' id="user-detail-name"><span>I'm </span>Shubham Adhya </h2>
+            <p  id="user-detail-intro">
             I am a passionate and driven Back-End Web Developer with skills in MERN stack, seeking to make my mark in the world of technology with a keen interest in all things web development.
             </p>
             <div className='about__extra'>
@@ -46,8 +46,8 @@ const About = () => {
               </div>
               <div>
                 <h5>Age: &nbsp;<span> 23 Years</span> </h5>
-                <h5>Email: &nbsp;<span> shubhamadhya@gmail.com</span> </h5>
-                <h5>From: &nbsp;<span> Kolkata, India</span> </h5>
+                <h5 id="contact-email">Email: &nbsp;<span> shubhamadhya@gmail.com</span> </h5>
+                <h5>From: &nbsp;<span> Kolkata, India</span></h5>
               </div>
             </div>
         </div>

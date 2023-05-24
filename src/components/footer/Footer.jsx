@@ -1,26 +1,30 @@
 import React from 'react'
 import './Footer.css'
 import {BsLinkedin} from 'react-icons/bs'
+import {BsGithub} from 'react-icons/bs'
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className='footer__logo'>Shubham Adhya</a>
+      <a href="#header" className='footer__logo' id="user-detail-name">Shubham Adhya</a>
       <ul className='permalinks'>
-        <li><a href="#">Home</a></li>
+        <li><a href="#header">Home</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="#axperience">Experience</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#skill">My Skills</a></li>
+        <li><a href="#projects">My Projects</a></li>
+        <li><a href="#stats">GitHub Stats</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
       <div className="footer__socials">
-        <a href="https://linkedin.in/"><BsLinkedin/></a>
-        <a href="https://linkedin.in/"><BsLinkedin/></a>
-        <a href="https://linkedin.in/"><BsLinkedin/></a>
+        <a href="https://linkedin.com/in/shubham-adhya" target='_blank' rel='noreferrer'
+        id="contact-linkedin">
+          <BsLinkedin/>
+        </a>
+        <a href="https://github.com/shubham-Adhya" target='_blank' rel='noreferrer' id="contact-github">
+          <BsGithub/>
+        </a>
       </div>
       <div className="footer__copyright">
-        <small>&copy; Shubham Adhya. All rights reserved</small>
+        <h4><i> “I slept and dreamt that life was a joy. I awoke and saw that life was service. I acted and behold, service was a joy.”- Rabindranath Tagore</i> </h4>
       </div>
     </footer>
   )

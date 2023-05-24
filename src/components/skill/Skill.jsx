@@ -27,7 +27,7 @@ import {SiPostman} from 'react-icons/si'
 
 const Skill = () => {
   return (
-    <section id='skill'>
+    <section id='skills'>
       <h5>What Skills I have</h5>
       <h2>My Skills</h2>
       <div className='container skill__container'>
@@ -35,43 +35,43 @@ const Skill = () => {
         <div className="skill__frontend">
           <h3>Frontend Development</h3>
           <div className="skill__content">
-            <article className='skill__details'>
+            <article className='skill__details skills-card-img'>
               <AiFillHtml5 className='skill__details-icons'/>
               <div>
-                <h4>HTML</h4>
+                <h4 className='skills-card-name'>HTML</h4>
               </div>
             </article>
-            <article className='skill__details'>
+            <article className='skill__details skills-card-img'>
               <IoLogoCss3 className='skill__details-icons'/>
               <div>
-                <h4>CSS3</h4>
+                <h4 className='skills-card-name'>CSS3</h4>
               </div>
             </article>
-            <article className='skill__details'>
+            <article className='skill__details skills-card-img'>
               <TbBrandJavascript className='skill__details-icons'/>
               <div>
-                <h4>JavaScript</h4>
+                <h4 className='skills-card-name'>JavaScript</h4>
 
               </div>
             </article>
-            <article className='skill__details'>
+            <article className='skill__details skills-card-img'>
               <TbBrandTypescript className='skill__details-icons'/>
               <div>
-                <h4>TypeScript</h4>
+                <h4 className='skills-card-name'>TypeScript</h4>
 
               </div>
             </article>
-            <article className='skill__details'>
+            <article className='skill__details skills-card-img'>
               <FaBootstrap className='skill__details-icons'/>
               <div>
-              <h4>Bootstrap</h4>
+              <h4 className='skills-card-name'>Bootstrap</h4>
 
               </div>
             </article>
-            <article className='skill__details'>
+            <article className='skill__details skills-card-img'>
               <FaReact className='skill__details-icons'/>
               <div>
-              <h4>React</h4>
+              <h4 className='skills-card-name'>React</h4>
 
               </div>
             </article>
@@ -81,68 +81,68 @@ const Skill = () => {
         <div className="skill__backend">
           <h3>Backend Development</h3>
             <div className="skill__content">
-              <article className='skill__details'>
+              <article className='skill__details skills-card-img'>
                 <FaNodeJs className='skill__details-icons'/>
                 <div>
-                <h4>NodeJS</h4>
+                <h4 className='skills-card-name'>NodeJS</h4>
 
                 </div>
               </article>
-              <article className='skill__details'>
+              <article className='skill__details skills-card-img'>
                 <SiExpress className='skill__details-icons'/>
                 <div>
-                <h4>Express</h4>
+                <h4 className='skills-card-name'>Express</h4>
 
                 </div>
               </article>
-              <article className='skill__details'>
+              <article className='skill__details skills-card-img'>
                 <SiMongodb className='skill__details-icons'/>
                 <div>
-                <h4>MongoDB</h4>
+                <h4 className='skills-card-name'>MongoDB</h4>
 
                 </div>
               </article>
-              <article className='skill__details'>
+              <article className='skill__details skills-card-img'>
                 <SiPassport className='skill__details-icons'/>
                 <div>
-                <h4>OAuth</h4>
+                <h4 className='skills-card-name'>OAuth</h4>
 
                 </div>
               </article>
-              <article className='skill__details'>
+              <article className='skill__details skills-card-img'>
                 <SiSocketdotio className='skill__details-icons'/>
                 <div>
-                <h4>Socket.io</h4>
+                <h4 className='skills-card-name'>Socket.io</h4>
 
                 </div>
               </article>
-              <article className='skill__details'>
+              <article className='skill__details skills-card-img'>
                 <GrMysql className='skill__details-icons'/>
                 <div>
-                <h4>MySQL</h4>
+                <h4 className='skills-card-name'>MySQL</h4>
 
                 </div>
               </article>
-              <article className='skill__details'>
+              <article className='skill__details skills-card-img'>
                 <SiRedis className='skill__details-icons'/>
                 <div>
-                <h4>Redis</h4>
+                <h4 className='skills-card-name'>Redis</h4>
 
                 </div>
               </article>
               
-              <article className='skill__details'>
+              <article className='skill__details skills-card-img'>
                 <TbBinaryTree className='skill__details-icons'/>
                 <div>
-                <h4>DS-Algo</h4>
+                <h4 className='skills-card-name'>DS-Algo</h4>
 
                 </div>
               </article>
               
-              <article className='skill__details'>
+              <article className='skill__details skills-card-img'>
                 <FaAws className='skill__details-icons'/>
                 <div>
-                <h4>AWS</h4>
+                <h4 className='skills-card-name'>AWS</h4>
 
                 </div>
               </article>
@@ -153,61 +153,61 @@ const Skill = () => {
           <h3>Other Skills</h3>
             <div className="skill__content">
               
-              <article className='skill__details'>
+              <article className='skill__details skills-card-img'>
                 <RiTeamLine className='skill__details-icons'/>
                 <div>
-                <h4>Team work</h4>
+                <h4 className='skills-card-name'>Team work</h4>
 
                 </div>
               </article>
               
-              <article className='skill__details'>
+              <article className='skill__details skills-card-img'>
                 <TbBulb className='skill__details-icons'/>
                 <div>
-                <h4>Self Learn</h4>
+                <h4 className='skills-card-name'>Self Learn</h4>
 
                 </div>
               </article>
-              <article className='skill__details'>
+              <article className='skill__details skills-card-img'>
                 <SlPuzzle className='skill__details-icons'/>
                 <div>
-                <h4>Adaptable</h4>
+                <h4 className='skills-card-name'>Adaptable</h4>
 
                 </div>
               </article>
-              <article className='skill__details'>
+              <article className='skill__details skills-card-img'>
                 <BsGit className='skill__details-icons'/>
                 <div>
-                <h4>Git</h4>
+                <h4 className='skills-card-name'>Git</h4>
 
                 </div>
               </article>
-              <article className='skill__details'>
+              <article className='skill__details skills-card-img'>
                 <DiNpm className='skill__details-icons'/>
                 <div>
-                <h4>npm</h4>
+                <h4 className='skills-card-name'>npm</h4>
 
                 </div>
               </article>
-              <article className='skill__details'>
+              <article className='skill__details skills-card-img'>
                 <SiNetlify className='skill__details-icons'/>
                 <div>
-                <h4>Netlify</h4>
+                <h4 className='skills-card-name'>Netlify</h4>
 
                 </div>
               </article>
-              <article className='skill__details'>
+              <article className='skill__details skills-card-img'>
                 <SiRender className='skill__details-icons'/>
                 <div>
-                <h4>render</h4>
+                <h4 className='skills-card-name'>render</h4>
 
                 </div>
               </article>
 
-              <article className='skill__details'>
+              <article className='skill__details skills-card-img'>
                 <SiPostman className='skill__details-icons'/>
                 <div>
-                <h4>Postman</h4>
+                <h4 className='skills-card-name'>Postman</h4>
 
                 </div>
               </article>

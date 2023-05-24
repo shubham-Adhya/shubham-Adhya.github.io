@@ -1,13 +1,13 @@
-#portfolio{
+#projects{
     padding-top: 3rem;
 }
-.portfolio__container{
+.Projects__container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 2.5rem; ;
 }
 
-.portfolio__item{
+.Projects__item{
     background: var(--color-bg-variant);
     padding: 1.2rem;
     border-radius: 2rem;
@@ -15,30 +15,30 @@
     transition: var(--transition);
 }
 
-.portfolio__item:hover{
+.Projects__item:hover{
     border-color: var(--color-bg-variant);
     background: transparent;
 }
 
-.portfolio__item-image{
+.Projects__item-image{
     border-radius: 1.5rem;
     overflow: hidden;
     transition: var(--transition);
 }
-.portfolio__item-image:hover{
+.Projects__item-image:hover{
     transform: scale(1.05);
     transition: var(--transition);
 }
-.portfolio__item h3{
+.Projects__item h3{
     margin: 2rem 0 1rem;
 }
-.portfolio__item p{
+.Projects__item p{
     margin: 1rem  0;
 }
 .project__stack{
     margin: 1rem 0;
 }
-.portfolio__item-cta{
+.Projects__item-cta{
     display: flex;
     gap: 1rem;
     margin-top: 2rem;
@@ -62,7 +62,7 @@
 
 /* ============ MEDIA QUERIES (MEDIUM)======= */
 @media screen and (max-width: 1024px){
-    .portfolio__container{
+    .Projects__container{
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
     }
@@ -70,7 +70,7 @@
 
 /* ============ MEDIA QUERIES (Small)======= */
 @media screen and (max-width: 600px){
-    .portfolio__container{
+    .Projects__container{
         grid-template-columns: 1fr ;
         gap: 1rem;
     }

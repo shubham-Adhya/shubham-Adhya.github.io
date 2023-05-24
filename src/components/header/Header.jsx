@@ -6,7 +6,7 @@ import HeaderSocials from './HeaderSocials'
 
 const Header = () => {
   return (
-    <header>
+    <header id='home'>
       <div className="container header__container">
         
         <HeaderSocials/>
@@ -14,14 +14,14 @@ const Header = () => {
         <div className='header__content'>
           <div>
             <h5>Hello I'm</h5>
-            <h1>Shubham Adhya</h1>
-            <h4 className='text-light'> Node Backend Developer</h4>
+            <h1 id="user-detail-name">Shubham Adhya</h1>
+            <h4 className='text-light'>Node Backend Developer</h4>
 
             <CTA/>
             <a href="#contact" className='scroll__down'>Scroll Down</a>
           </div>
           <div className='me'>
-            <img src={ME} alt="me" className='me__image'/>
+            <img src={ME} alt="me" className='me__image home-img'/>
           </div>
         </div>
 

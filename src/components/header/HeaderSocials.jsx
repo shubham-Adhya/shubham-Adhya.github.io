@@ -23,13 +23,13 @@ const HeaderSocials = () => {
   return (
     <div className='header__socials'>
         <DarkTooltip title="LinkedIn" placement='right'>
-          <a href="https://linkedin.com/in/shubham-adhya" target='_blank' rel='noreferrer'>
+          <a href="https://linkedin.com/in/shubham-adhya" target='_blank' rel='noreferrer' id="contact-linkedin">
             <BsLinkedin className='header__socials-icon'/>
           </a>
         </DarkTooltip>
 
         <DarkTooltip title="GitHub" placement='right'>
-        <a href="https://github.com/shubham-Adhya" target='_blank' rel='noreferrer'>
+        <a href="https://github.com/shubham-Adhya" target='_blank' rel='noreferrer' id="contact-github">
           <FaGithub className='header__socials-icon'/>
         </a>
         </DarkTooltip>
