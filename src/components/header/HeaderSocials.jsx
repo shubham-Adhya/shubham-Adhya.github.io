@@ -29,7 +29,7 @@ const HeaderSocials = () => {
         </DarkTooltip>
 
         <DarkTooltip title="GitHub" placement='right'>
-        <a href="https://www.github.com/shubham-Adhya" target='_blank' rel='noreferrer' id="contact-github">
+        <a href="https://github.com/shubham-Adhya" target='_blank' rel='noreferrer' id="contact-github">
           <FaGithub className='header__socials-icon'/>
         </a>
         </DarkTooltip>

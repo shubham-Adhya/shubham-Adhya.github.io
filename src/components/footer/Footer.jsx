@@ -19,7 +19,7 @@ const Footer = () => {
         id="contact-linkedin">
           <BsLinkedin/>
         </a>
-        <a href="https://www.github.com/shubham-Adhya" target='_blank' rel='noreferrer' id="contact-github">
+        <a href="https://github.com/shubham-Adhya" target='_blank' rel='noreferrer' id="contact-github">
           <BsGithub/>
         </a>
       </div>
