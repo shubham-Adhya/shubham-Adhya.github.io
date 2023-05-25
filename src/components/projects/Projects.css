@@ -63,7 +63,7 @@
 /* ============ MEDIA QUERIES (MEDIUM)======= */
 @media screen and (max-width: 1024px){
     .Projects__container{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2,1fr);
         gap: 1.2rem;
     }
 }
@@ -71,7 +71,7 @@
 /* ============ MEDIA QUERIES (Small)======= */
 @media screen and (max-width: 600px){
     .Projects__container{
-        grid-template-columns: 1fr ;
+        grid-template-columns: repeat(1,1fr) ;
         gap: 1rem;
     }
 }
