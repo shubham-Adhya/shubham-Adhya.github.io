@@ -4,8 +4,7 @@ import Shubham_Adhya_Resume from '../../assets/Shubham-Adhya-Resume.pdf'
 const CTA = () => {
   const onClickhandler = () => {
     return window.open(
-      "https://drive.google.com/file/d/1sVhFtj1C1H-Gq-eMZLT-CbtleuN7lnPN/view?usp=sharing",
-      "_blank"
+      "https://drive.google.com/file/d/1sVhFtj1C1H-Gq-eMZLT-CbtleuN7lnPN/view?usp=sharing"
     );
   };
 
