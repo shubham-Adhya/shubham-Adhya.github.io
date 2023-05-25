@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.018589c2.css",
-    "main.js": "/static/js/main.afcb55cc.js",
+    "main.css": "/static/css/main.165a290f.css",
+    "main.js": "/static/js/main.fd5ff2f2.js",
     "static/media/Tripwise SS.png": "/static/media/Tripwise SS.eb2d8aa9fcb328739376.png",
     "static/media/BuddyCart SS.png": "/static/media/BuddyCart SS.7f877793ae0f7afce776.png",
+    "static/media/Polished SS.png": "/static/media/Polished SS.a580109f3c9ee8005fbe.png",
     "static/media/Shubham-Adhya-Resume.pdf": "/static/media/Shubham-Adhya-Resume.f7537d1e87e13dfd5054.pdf",
     "static/media/me-about.jpg": "/static/media/me-about.7743030ee13064b38296.jpg",
     "static/media/MirrorMate SS.png": "/static/media/MirrorMate SS.956813a61cf1b7731828.png",
     "static/media/me.png": "/static/media/me.b3dc8c9addcc976b7e76.png",
     "index.html": "/index.html",
-    "main.018589c2.css.map": "/static/css/main.018589c2.css.map",
-    "main.afcb55cc.js.map": "/static/js/main.afcb55cc.js.map"
+    "main.165a290f.css.map": "/static/css/main.165a290f.css.map",
+    "main.fd5ff2f2.js.map": "/static/js/main.fd5ff2f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.018589c2.css",
-    "static/js/main.afcb55cc.js"
+    "static/css/main.165a290f.css",
+    "static/js/main.fd5ff2f2.js"
   ]
 }
