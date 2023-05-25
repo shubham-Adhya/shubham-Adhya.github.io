@@ -15,11 +15,11 @@ const Footer = () => {
         <li><a href="#contact">Contact</a></li>
       </ul>
       <div className="footer__socials">
-        <a href="https://linkedin.com/in/shubham-adhya" target='_blank' rel='noreferrer'
+        <a href="https://www.linkedin.com/in/shubham-adhya" target='_blank' rel='noreferrer'
         id="contact-linkedin">
           <BsLinkedin/>
         </a>
-        <a href="https://github.com/shubham-Adhya" target='_blank' rel='noreferrer' id="contact-github">
+        <a href="https://www.github.com/shubham-Adhya" target='_blank' rel='noreferrer' id="contact-github">
           <BsGithub/>
         </a>
       </div>
