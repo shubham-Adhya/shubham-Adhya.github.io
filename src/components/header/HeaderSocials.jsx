@@ -34,7 +34,6 @@ const HeaderSocials = () => {
         </a>
         </DarkTooltip>
 
-        {/* <a href="https://linkedin.com/in/shubham-adhya" target='_blank'></a> */}
     </div>
   )
 }

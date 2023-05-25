@@ -11,7 +11,7 @@ const CTA = () => {
 
   return (
     <div className='cta'>
-        <a target='_blank' href={Shubham_Adhya_Resume} download='Shubham_Adhya_Resume.pdf' onClick={onClickhandler} rel='noreferrer' className='btn' id="resume-link-2">Download Resume</a>
+        <a target='_blank' href={Shubham_Adhya_Resume} download='Shubham_Adhya_Resume.pdf' onClick={onClickhandler} rel='noreferrer' className='btn' id="resume-button-2">Download Resume</a>
         <a href="#contact" className='btn btn-primary'>Let's Talk</a>
     </div>
   )

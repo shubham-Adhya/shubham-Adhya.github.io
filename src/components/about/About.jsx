@@ -38,7 +38,7 @@ const About = () => {
             </div>
             <h2 className='about__title' id="user-detail-name"><span>I'm </span>Shubham Adhya </h2>
             <p  id="user-detail-intro">
-            I am a passionate and driven Back-End Web Developer with skills in MERN stack, seeking to make my mark in the world of technology with a keen interest in all things web development.
+            I am a passionate and driven Back-End Web Developer with skills in MERN stack, eager to make my mark in the world of technology with a keen interest in working with Node.js, Express.js, and MongoDB. My goal is to leverage my skills and experience to develop robust and scalable web applications that meet the needs of businesses and individuals alike.
             </p>
             <div className='about__extra'>
               <div>

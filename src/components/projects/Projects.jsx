@@ -4,6 +4,7 @@ import './Projects.css'
 import IMG1 from '../../assets/MirrorMate SS.png'
 import IMG2 from '../../assets/Tripwise SS.png'
 import IMG3 from '../../assets/BuddyCart SS.png'
+import IMG4 from '../../assets/Polished SS.png'
 
 import {AiFillHtml5} from 'react-icons/ai'
 import {IoLogoCss3} from 'react-icons/io'
@@ -36,6 +37,7 @@ const Projects = () => {
       <h5>My Recent work</h5>
       <h2>My Projects</h2>
       <div className="container Projects__container">
+
         <article className="Projects__item project-card">
           <div className="Projects__item-image">
             <img src={IMG1} alt='' />
@@ -110,7 +112,6 @@ const Projects = () => {
           </div>
         </article>
 
-
         <article className="Projects__item project-card">
           <div className="Projects__item-image">
             <img src={IMG3} alt='BuddyCart' />
@@ -136,6 +137,37 @@ const Projects = () => {
               GitHub
             </a>
             <a href="https://dirty-quilt-1530.netlify.app/" className='btn btn-primary project-deployed-link' target='_blank' rel='noreferrer'>
+            <BiLinkExternal className='logo_btn'/>
+              Live Demo
+            </a>
+          </div>
+        </article>
+
+        <article className="Projects__item project-card">
+          <div className="Projects__item-image">
+            <img src={IMG4} alt='Polished' />
+          </div>
+          <h3 className='project-title'>Polished</h3>
+          <p className='project-description'>Polished is a beauty retail company that sells cosmetic commodities and fashion products, delivering all over India. The design idea of this project is taken form Nykaa.com</p>
+          <div className='project__stack project-tech-stack'>
+          <DarkTooltip title="HTML" placement='bottom' className='tooltip' followCursor>
+            <div><AiFillHtml5 className='logo'/></div>
+          </DarkTooltip>
+          <DarkTooltip title="CSS" placement='bottom' className='tooltip' followCursor>
+            <div><IoLogoCss3 className='logo'/></div>
+          </DarkTooltip>
+          <DarkTooltip title="JavaScript" placement='bottom' className='tooltip' followCursor>
+            <div><IoLogoJavascript className='logo'/></div>
+          </DarkTooltip>
+
+
+          </div>
+          <div className="Projects__item-cta">
+            <a href="https://github.com/shubham-Adhya/naughty-discussion-3257" className='btn project-github-link' target='_blank' rel='noreferrer'>
+            <AiFillGithub className='logo_btn'/>
+              GitHub
+            </a>
+            <a href="https://zesty-quokka-d67a28.netlify.app/" className='btn btn-primary project-deployed-link' target='_blank' rel='noreferrer'>
             <BiLinkExternal className='logo_btn'/>
               Live Demo
             </a>
