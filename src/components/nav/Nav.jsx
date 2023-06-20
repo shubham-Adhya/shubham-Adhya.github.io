@@ -70,7 +70,7 @@ const Nav = () => {
       </DarkTooltip>
 
       <DarkTooltip title="Download Resume" placement='top'>
-        <a target='_blank' href={Shubham_Adhya_Resume} download='Shubham_Adhya_Resume.pdf' onClick={onClickhandler} rel='noreferrer' className='nav-link resume' id="resume-button-1">
+        <a target='_blank' href={Shubham_Adhya_Resume} download='Shubham_Adhya_Resume' onClick={onClickhandler} rel='noreferrer' className='nav-link resume' id="resume-button-1">
           <GoDesktopDownload/>
         </a>
       </DarkTooltip>
