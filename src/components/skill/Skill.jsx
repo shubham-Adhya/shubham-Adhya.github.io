@@ -1,9 +1,8 @@
-import React from 'react'
-import './Skill.css'
-import FD from './FD'
-import BD from './BD'
-import OS from './Other'
-
+import React from "react";
+import "./Skill.css";
+import FD from "./FD";
+import BD from "./BD";
+import OS from "./Other";
 
 const Skill = () => {
   return (
@@ -55,6 +54,6 @@ const Skill = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Skill
+export default Skill;

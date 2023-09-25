@@ -133,3 +133,13 @@ img{
         margin-bottom: 2rem;
     }
 }
+
+.animate{
+    display: inline-block;
+    opacity: 1;
+
+}
+.noanimate{
+    display: inline-block;
+    opacity: 0;
+}

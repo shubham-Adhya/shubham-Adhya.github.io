@@ -8,6 +8,7 @@ import { GrMysql } from 'react-icons/gr'
 import { SiRedis } from 'react-icons/si'
 import { TbBinaryTree } from 'react-icons/tb'
 import { FaAws } from 'react-icons/fa'
+import { CgCloud } from 'react-icons/cg'
 
 const BD=[
     {
@@ -49,6 +50,10 @@ const BD=[
     {
         icon: FaAws,
         skillName: "AWS"
+    },
+    {
+        icon: CgCloud,
+        skillName: "Google Cloud"
     },
 ]
 
